@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 /**
  * 
- * @author nithin
+ * @author nithin ns
  *
  */
 public class UserProfilePage {
