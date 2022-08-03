@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class GoToApplicationPage {
 
-	//initialisation
+	//initialisationn
 	public GoToApplicationPage(WebDriver driver)
 	{ PageFactory.initElements(driver, this);
 	
