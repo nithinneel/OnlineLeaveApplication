@@ -15,8 +15,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
-import com.crm.objectRepository.HomePage;
 import com.crm.objectRepository.LoginPage;
+import com.crm.objectRepository.OlmHomePage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -66,9 +66,6 @@ public class BaseClass
 			driver=new FirefoxDriver();
 		}else if(BROWSER.equalsIgnoreCase("chrome"))
 		{
-			//	ChromeOptions chromeOptions=new ChromeOptions();
-			//	chromeOptions.setBinary("C:\\Users\\SanjayBabu\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-			//	driver=new ChromeDriver(chromeOptions);
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 		}
@@ -86,36 +83,61 @@ public class BaseClass
 		driver.manage().window().maximize();
 	}
 	/**
-	 * login to application
+	 * login to application as admin
 	 */
 	@BeforeMethod
-	public void loginToAppln()
+	public void loginAsAdminToAppln()
 	{
 		String USERNAME = null;
 		try {
-			USERNAME = fLib.getPropertKeyValue("username");
+			USERNAME = fLib.getPropertKeyValue("adminUerName");
 		} catch (Throwable e) {
 			e.printStackTrace();
 		}
 		String PASSWORD = null;
 		try {
-			PASSWORD = fLib.getPropertKeyValue("password");
+			PASSWORD = fLib.getPropertKeyValue("adminPassword");
 		} catch (Throwable e) {
 			e.printStackTrace();
 		}
 
-		LoginPage lpage=new LoginPage(driver);
-		lpage.loginToAppli(USERNAME, PASSWORD);
-		System.out.println("Login successful");
+		LoginPage loginpage  = new LoginPage(driver);
+		loginpage.logintoOLMT(USERNAME, PASSWORD);
+		System.out.println("Admin Login successful");
 	}
+	
+	/**
+	 * login to application as employee
+	 */
+	@BeforeMethod
+	public void loginAsEmployeeToAppln()
+	{
+		String USERNAME = null;
+		try {
+			USERNAME = fLib.getPropertKeyValue("EmpUserName");
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+		String PASSWORD = null;
+		try {
+			PASSWORD = fLib.getPropertKeyValue("EmpPassword");
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+
+		LoginPage loginpage  = new LoginPage(driver);
+		loginpage.logintoOLMT(USERNAME, PASSWORD);
+		System.out.println("Employee Login successful");
+	}
+	
 	/**
 	 * logout from application
 	 */
 	@AfterMethod
 	public void logoutFromAppln()
 	{
-		HomePage hpage=new HomePage(driver);
-		hpage.logout(driver);
+		OlmHomePage homePage = new OlmHomePage(driver);
+		homePage.Logout();
 		System.out.println("Logout successful");
 	}
 	/**
