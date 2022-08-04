@@ -9,7 +9,8 @@ public class GoToApplicationPage {
 
 	//initialisationn
 	public GoToApplicationPage(WebDriver driver)
-	{ PageFactory.initElements(driver, this);
+	{ 
+		PageFactory.initElements(driver, this);
 	
 	}
 	
@@ -21,8 +22,5 @@ public class GoToApplicationPage {
 	public void recommendBtn(WebDriver driver)
 	{
 		recommendbtn.click();
-	}
-	
-	
-	
+	}	
 }
