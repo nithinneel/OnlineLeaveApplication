@@ -22,6 +22,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass 
 {
+	
 	public static WebDriver sdriver;
 	public WebDriver driver;
 	public DataBaseUtility dLib=new DataBaseUtility();
@@ -29,7 +30,7 @@ public class BaseClass
 	public FileUtility fLib=new FileUtility();
 	public WebDriverUtility  wLib=new WebDriverUtility();
 	public JavaUtility jLib=new JavaUtility();
-
+	
 	/**
 	 * connecting to database
 	 */
@@ -82,45 +83,22 @@ public class BaseClass
 		//maximize the screen
 		driver.manage().window().maximize();
 	}
-	/**
-	 * login to application as admin
-	 */
-	@BeforeMethod
-	public void loginAsAdminToAppln()
-	{
-		String USERNAME = null;
-		try {
-			USERNAME = fLib.getPropertKeyValue("adminUerName");
-		} catch (Throwable e) {
-			e.printStackTrace();
-		}
-		String PASSWORD = null;
-		try {
-			PASSWORD = fLib.getPropertKeyValue("adminPassword");
-		} catch (Throwable e) {
-			e.printStackTrace();
-		}
-
-		LoginPage loginpage  = new LoginPage(driver);
-		loginpage.logintoOLMT(USERNAME, PASSWORD);
-		System.out.println("Admin Login successful");
-	}
 	
 	/**
 	 * login to application as employee
 	 */
 	@BeforeMethod
-	public void loginAsEmployeeToAppln()
+	public void loginToAppln()
 	{
 		String USERNAME = null;
 		try {
-			USERNAME = fLib.getPropertKeyValue("EmpUserName");
+			USERNAME = fLib.getPropertKeyValue("loginUserName");
 		} catch (Throwable e) {
 			e.printStackTrace();
 		}
 		String PASSWORD = null;
 		try {
-			PASSWORD = fLib.getPropertKeyValue("EmpPassword");
+			PASSWORD = fLib.getPropertKeyValue("loginPassword");
 		} catch (Throwable e) {
 			e.printStackTrace();
 		}
@@ -128,8 +106,7 @@ public class BaseClass
 		LoginPage loginpage  = new LoginPage(driver);
 		loginpage.logintoOLMT(USERNAME, PASSWORD);
 		System.out.println("Employee Login successful");
-	}
-	
+	}	
 	/**
 	 * logout from application
 	 */
