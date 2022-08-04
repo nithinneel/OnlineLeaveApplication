@@ -4,12 +4,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import com.crm.genericUtilities.WebDriverUtility;
 /**
  * 
  * @author SHUBH
  *
  */
-public class AddEmployeePage {
+public class AddEmployeePage extends WebDriverUtility{
+
 	WebDriver driver;
 	//Initialization
 	public AddEmployeePage() {
@@ -33,9 +36,7 @@ public class AddEmployeePage {
 	@FindBy(id = "btnSubmit") private WebElement addEmpButton;
 
 	//Utilization
-	public WebDriver getDriver() {
-		return driver;
-	}
+	
 	public WebElement getEmpDepaetmentOptions() {
 		return empDepaetmentOptions;
 	}
@@ -81,5 +82,22 @@ public class AddEmployeePage {
 	public WebElement getAddEmpButton() {
 		return addEmpButton;
 	}
-
+	
+  public void addEmployee(String empDept, String empDesign, String empCodeNumber, String empEmailadress, String empLoginPassword ,String empFirstName, String empLastName, String empDOB, String empBloodGroup, String empGender, String empphoneNumber, String empOfficeNumber, String empPermanentAddress,String empPresentAddress ) {
+	  selectDropDown(addEmpButton, "empDept");
+	  selectDropDown(empDesignationOptins, "empDesign");
+	  empCodeTextField.sendKeys("empCodeNumber");
+	  empEmailIdTextField.sendKeys("empEmailadress");
+	  empLoginPasswordTextField.sendKeys("empLoginPassword");
+	  empFirstNameTextField.sendKeys("empFirstName");
+	  empLastNameTextField.sendKeys("empLastName");
+	  empDOBtextField.sendKeys("empDOB");
+	  selectDropDown(empBloodGroupOptions, "empBloodGroup");
+	  selectDropDown(empGenderOptions, "empGender");
+	  empPersonalPhoneNumberTextField.sendKeys("empphoneNumber");
+	  empOfficePhoneNumberTextField.sendKeys("empOfficeNumber");
+	  empPermanantAddresstextField.sendKeys("empPermanentAddress");
+	  empPresentAddressTextField.sendKeys("empPresentAddress");
+	  addEmpButton.click();
+  }
 }
