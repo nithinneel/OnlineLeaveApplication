@@ -51,6 +51,4 @@ public class EmpHomePage {
 	public void MenuBar() {
 		menuBar.click();
 	}
-	 
-
 }

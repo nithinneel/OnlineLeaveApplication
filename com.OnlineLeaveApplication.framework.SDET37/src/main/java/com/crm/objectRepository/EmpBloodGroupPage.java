@@ -22,11 +22,9 @@ public class EmpBloodGroupPage extends WebDriverUtility {
 		return bloodGrpDrpDwn;
 	}
 
-
 	public WebElement getMenuBar() {
 		return menuBar;
 	}
-
 
 	public void EmpBloodGroupInfoPage(String selectBloodGrp) {
 		selectDropDown(bloodGrpDrpDwn, "selectBloodGrp");

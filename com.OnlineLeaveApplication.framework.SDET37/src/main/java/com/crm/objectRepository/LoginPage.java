@@ -10,9 +10,8 @@ import org.openqa.selenium.support.PageFactory;
  *
  */
 public class LoginPage {
-	WebDriver driver;
     //Initialization
-	public LoginPage() {
+	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 	//Declaration 
@@ -21,9 +20,7 @@ public class LoginPage {
 	@FindBy(name = "btnSubmit") private WebElement loginButton;
 	
 	//Utilization
-	public WebDriver getDriver() {
-		return driver;
-	}
+	
 	public WebElement getUserNameTextField() {
 		return userNameTextField;
 	}

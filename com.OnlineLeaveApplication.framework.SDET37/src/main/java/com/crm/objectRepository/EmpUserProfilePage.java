@@ -33,8 +33,6 @@ public class EmpUserProfilePage {
 	}
 	public WebElement getMenuBar() {
 		return menuBar;
+		
 	}
-
-	
-
 }
