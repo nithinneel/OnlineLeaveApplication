@@ -1,5 +1,8 @@
 package com.crm.genericUtilities;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -358,5 +361,12 @@ public class WebDriverUtility {
 	{
 		JavascriptExecutor javaScript = (JavascriptExecutor)driver;
 		javaScript.executeScript("window.scrollBy(0,500)");
+	}
+	
+	public void EnterTabAndClickOnDestination() throws AWTException
+	{
+		Robot r = new Robot();
+		r.keyPress(KeyEvent.VK_TAB);
+		r.keyPress(KeyEvent.VK_ENTER);
 	}
 }
