@@ -11,7 +11,6 @@ public class AddEmployeeTest extends BaseClass{
 	
 	@Test
 	public void addEmployeeDetails() {
-	
 		
 		OlmHomePage homePage = new OlmHomePage(driver);
 		  homePage.AddEmployee();
