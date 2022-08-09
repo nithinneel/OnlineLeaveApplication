@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Iterator;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
@@ -302,6 +303,19 @@ public class WebDriverUtility {
 	{
 		Select select=new Select(element);
 		select.selectByVisibleText(visible_text);
+	}
+	/**
+	 * to get all the dropdown options
+	 * @param element
+	 */
+	public void selectPrintAllDropdownOptions(WebElement element) {
+		Select select=new Select(element);
+		List<WebElement> dropdownOptions = select.getOptions();
+		for (WebElement webEle : dropdownOptions) {
+			String dropDownOption = webEle.getText();
+			System.out.println(dropDownOption);
+		}
+		
 	}
 	/**
 	 * it is used to mouse over an element
