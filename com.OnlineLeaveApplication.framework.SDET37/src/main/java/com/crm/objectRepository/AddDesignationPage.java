@@ -34,8 +34,9 @@ public class AddDesignationPage extends WebDriverUtility{
 	}
 	
 	public void selectDepartment(String departmentName) {
-		selectDropDown(departmentDrpDwn, departmentName);
-		addDestinationBtn.click();
+		
+		selectDropDownByVtext(departmentDrpDwn, departmentName);
+		//addDestinationBtn.click();
 	}
-	
+
 }
