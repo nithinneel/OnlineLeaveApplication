@@ -11,7 +11,11 @@ import com.crm.objectRepository.BeforeFinalSubmissionPage;
 import com.crm.objectRepository.GoToApplicationPage;
 import com.crm.objectRepository.OlmHomePage;
 import com.crm.objectRepository.onlineLeaveApplicationPage;
-
+/**
+ * 
+ * @author V.S.GIRIDHAR
+ *
+ */
 public class Admin extends BaseClass{
 	@Test
 	public void adminApplyForLeaveAndCheck() throws Throwable {
