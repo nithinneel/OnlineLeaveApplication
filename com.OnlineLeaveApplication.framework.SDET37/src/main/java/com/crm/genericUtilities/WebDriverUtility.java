@@ -1,5 +1,8 @@
 package com.crm.genericUtilities;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -7,6 +10,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
+import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -358,5 +362,12 @@ public class WebDriverUtility {
 	{
 		JavascriptExecutor javaScript = (JavascriptExecutor)driver;
 		javaScript.executeScript("window.scrollBy(0,500)");
+	}
+	public void EnterTabandClickondestination() throws Throwable {
+		Robot robot = new Robot();
+		robot.keyPress(KeyEvent.VK_TAB);
+		robot.keyRelease(KeyEvent.VK_TAB);
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
 	}
 }

@@ -3,18 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LoginToApplication.loginToApplicationTest">
+      <class name="com.hr.admin.Admin">
         <methods>
-          <include name="loginAsEmployeeToAppln"/>
+          <include name="adminApplyForLeaveAndCheck"/>
           <include name="logoutFromAppln"/>
           <include name="closeDBconfig"/>
-          <include name="login"/>
+          <include name="loginToAppln"/>
           <include name="closeTheBrowser"/>
-          <include name="loginAsAdminToAppln"/>
           <include name="launchTheBrowser"/>
           <include name="dbConfig"/>
         </methods>
-      </class> <!-- LoginToApplication.loginToApplicationTest -->
+      </class> <!-- com.hr.admin.Admin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
