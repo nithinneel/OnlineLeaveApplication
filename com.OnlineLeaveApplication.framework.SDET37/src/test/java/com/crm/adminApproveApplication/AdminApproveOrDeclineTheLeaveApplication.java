@@ -18,31 +18,31 @@ public class AdminApproveOrDeclineTheLeaveApplication extends BaseClass{
 	@Test
 	public void adminApprovveLeaveApplication() throws InterruptedException, AWTException
 	{
-		
-//		//go to home page click on application link
+
+		//go to home page click on application link
 		OlmHomePage homepage = new OlmHomePage(driver);
-	homepage.Application();
-//		
+		homepage.Application();
+			
 		//goinside the application link and click on recommended button
 		GoToApplicationPage applicationpage=new GoToApplicationPage(driver);
 		applicationpage.recommendBtn(driver);
-		
+
 		//click on users leavedetails
 		homepage.UsersLeaveDetails();
-		
+
 		//click on go back button inside the user leave details & select an employee and check the leave details
 		GoToUsersLeaveDetails userleavdetails = new GoToUsersLeaveDetails(driver);
-		userleavdetails.viewLeaveDetails(driver);
-//		
-//		//select an employee and check the leave details
-//		userleavdetails.selectemp(driver);
-		
+		userleavdetails.viewLeaveDetails(driver);	
+		//		
+		//		//select an employee and check the leave details
+		//		userleavdetails.selectemp(driver);
+
 		//click on recommended application
 		homepage.RecommendedApplication();
-		
+
 		//click on decline button
-	GoToRecommendedLeaveApplication recommendedapplication = new GoToRecommendedLeaveApplication(driver);
-//		recommendedapplication.declineBtn(driver);
+		GoToRecommendedLeaveApplication recommendedapplication = new GoToRecommendedLeaveApplication(driver);
+		//		recommendedapplication.declineBtn(driver);
 		recommendedapplication.approveBtn(driver);
 		Thread.sleep(3000);
 		//approve the leave application
@@ -50,9 +50,9 @@ public class AdminApproveOrDeclineTheLeaveApplication extends BaseClass{
 		//recommendedapplication.mousehoverClickCancelPrint(driver);
 		wLib.EnterTabAndClickOnDestination();
 		wLib.backToPreviousPage(driver);
-		
-	
+
+
 	}
-	
-	
+
+
 }
