@@ -23,7 +23,7 @@ public class GoToApplicationPage {
 	private WebElement recommendbtn;
 
 	//utilisation
-	public void recommendBtn(WebDriver driver)
+	public void recommendBtn()
 	{
 		recommendbtn.click();
 

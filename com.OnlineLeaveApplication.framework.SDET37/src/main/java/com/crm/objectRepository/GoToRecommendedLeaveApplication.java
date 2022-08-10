@@ -26,12 +26,12 @@ public class GoToRecommendedLeaveApplication {
 	private WebElement declinebtn;
 	
 	//utilisation
-	public void approveBtn(WebDriver driver)
+	public void approveBtn()
 	{
 		approvebtn.click();
 	}
 	
-	public void declineBtn(WebDriver driver)
+	public void declineBtn()
 	{
 		declinebtn.click();
 	}

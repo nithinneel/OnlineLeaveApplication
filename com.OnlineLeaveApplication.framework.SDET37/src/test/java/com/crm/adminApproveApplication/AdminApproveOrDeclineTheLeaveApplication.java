@@ -25,7 +25,7 @@ public class AdminApproveOrDeclineTheLeaveApplication extends BaseClass{
 //		
 		//goinside the application link and click on recommended button
 		GoToApplicationPage applicationpage=new GoToApplicationPage(driver);
-		applicationpage.recommendBtn(driver);
+		applicationpage.recommendBtn();
 		
 		//click on users leavedetails
 		homepage.UsersLeaveDetails();
@@ -43,7 +43,7 @@ public class AdminApproveOrDeclineTheLeaveApplication extends BaseClass{
 		//click on decline button
 	GoToRecommendedLeaveApplication recommendedapplication = new GoToRecommendedLeaveApplication(driver);
 //		recommendedapplication.declineBtn(driver);
-		recommendedapplication.approveBtn(driver);
+		recommendedapplication.approveBtn();
 		Thread.sleep(3000);
 		//approve the leave application
 		//recommendedapplication.clickOnCanclelPrint(driver);
