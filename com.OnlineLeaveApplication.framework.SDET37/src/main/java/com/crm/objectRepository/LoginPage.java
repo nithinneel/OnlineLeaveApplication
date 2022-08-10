@@ -15,7 +15,7 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 	//Declaration 
-	@FindBy(name="officeUserCode") private WebElement userNameTextField;
+	@FindBy(name = "officeUserCode") private WebElement userNameTextField;
 	@FindBy(name = "officeUserPass") private WebElement passwordTextField;
 	@FindBy(name = "btnSubmit") private WebElement loginButton;
 	

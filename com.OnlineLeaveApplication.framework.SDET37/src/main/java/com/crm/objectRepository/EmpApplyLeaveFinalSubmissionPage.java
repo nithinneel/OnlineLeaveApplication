@@ -22,7 +22,11 @@ public class EmpApplyLeaveFinalSubmissionPage {
 	@FindBy(xpath = "//label[.='Sabbatical Leave']") private WebElement sabbaticalLeave;
 	@FindBy(xpath = "//label[.='Unpaid Leave']") private WebElement unpaidLeave;
 	@FindBy(name = "btnFinalSubmit") private WebElement applyBtnFinalSbt;
+	@FindBy(xpath = "//h3[text()='Successfully Updated']") private WebElement verification;
 	
+	public WebElement getVerification() {
+		return verification;
+	}
 	//Utilization
 	public WebElement getSickleave() {
 		return sickleave;

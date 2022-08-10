@@ -2,17 +2,40 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2022-08-10T11:25:28 IST" name="Default suite" finished-at="2022-08-10T11:25:59 IST" duration-ms="31147">
+=======
+  <suite started-at="2022-08-09T16:28:23 IST" name="Default suite" finished-at="2022-08-09T16:28:36 IST" duration-ms="13154">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2022-08-10T11:25:28 IST" name="Default test" finished-at="2022-08-10T11:25:59 IST" duration-ms="31147">
       <class name="LoginToApplication.LoginToApplicationAsAdmin">
         <test-method is-config="true" signature="dbConfig()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:28 IST" name="dbConfig" finished-at="2022-08-10T11:25:28 IST" duration-ms="8" status="PASS">
+=======
+    <test started-at="2022-08-09T16:28:23 IST" name="Default test" finished-at="2022-08-09T16:28:36 IST" duration-ms="13154">
+      <class name="com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:23 IST" name="dbConfig" finished-at="2022-08-09T16:28:23 IST" duration-ms="6" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConfig -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:28 IST" name="launchTheBrowser" finished-at="2022-08-10T11:25:59 IST" duration-ms="31085" status="FAIL">
           <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+=======
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:23 IST" name="launchTheBrowser" finished-at="2022-08-09T16:28:25 IST" duration-ms="2342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:25 IST" name="loginToAppln" finished-at="2022-08-09T16:28:25 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="adminApprovveLeaveApplication()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:25 IST" name="adminApprovveLeaveApplication" finished-at="2022-08-09T16:28:35 IST" duration-ms="10044" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
             <message>
               <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com]]>
             </message>
@@ -92,9 +115,14 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
 ... 37 more
 ]]>
             </full-stacktrace>
+<<<<<<< HEAD
           </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+=======
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- launchTheBrowser -->
         <test-method is-config="true" signature="loginToAppln()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:59 IST" name="loginToAppln" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1660110959562" status="SKIP">
           <reporter-output>
@@ -186,18 +214,68 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
           </reporter-output>
         </test-method> <!-- login -->
         <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:59 IST" name="logoutFromAppln" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1660110959571" status="SKIP">
+=======
+        </test-method> <!-- adminApprovveLeaveApplication -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:35 IST" name="logoutFromAppln" finished-at="2022-08-09T16:28:36 IST" duration-ms="155" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromAppln -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:59 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1660110959573" status="SKIP">
+=======
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:36 IST" name="closeTheBrowser" finished-at="2022-08-09T16:28:36 IST" duration-ms="215" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:59 IST" name="closeDBconfig" finished-at="2022-08-10T11:25:59 IST" duration-ms="1" status="PASS">
+=======
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:36 IST" name="closeDBconfig" finished-at="2022-08-09T16:28:36 IST" duration-ms="1" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBconfig -->
+<<<<<<< HEAD
       </class> <!-- LoginToApplication.LoginToApplicationAsAdmin -->
+=======
+      </class> <!-- com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication -->
+  <suite started-at="2022-08-09T18:23:27 IST" name="Default suite" finished-at="2022-08-09T18:23:41 IST" duration-ms="14224">
+    <groups>
+    </groups>
+    <test started-at="2022-08-09T18:23:27 IST" name="Default test" finished-at="2022-08-09T18:23:41 IST" duration-ms="14224">
+      <class name="Emplyoee.EmployeeUpdateProfile">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:27 IST" name="dbConfig" finished-at="2022-08-09T18:23:27 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConfig -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:27 IST" name="launchTheBrowser" finished-at="2022-08-09T18:23:30 IST" duration-ms="3210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:30 IST" name="loginToAppln" finished-at="2022-08-09T18:23:31 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="updateProfile()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:31 IST" name="updateProfile" finished-at="2022-08-09T18:23:40 IST" duration-ms="9624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProfile -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:40 IST" name="logoutFromAppln" finished-at="2022-08-09T18:23:41 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAppln -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:41 IST" name="closeTheBrowser" finished-at="2022-08-09T18:23:41 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:41 IST" name="closeDBconfig" finished-at="2022-08-09T18:23:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconfig -->
+      </class> <!-- Emplyoee.EmployeeUpdateProfile -->
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
