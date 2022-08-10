@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Iterator;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
@@ -368,5 +369,17 @@ public class WebDriverUtility {
 		Robot r = new Robot();
 		r.keyPress(KeyEvent.VK_TAB);
 		r.keyPress(KeyEvent.VK_ENTER);
+	}
+	public void getAllOptionsFromDropDownList(WebElement element)
+	{
+		Select select = new Select(element);
+		
+		List<WebElement> option = select.getOptions();
+		for(WebElement webElement1 : option)
+		{
+			String text = webElement1.getText();
+			System.out.println(text);
+		}
+			
 	}
 }
