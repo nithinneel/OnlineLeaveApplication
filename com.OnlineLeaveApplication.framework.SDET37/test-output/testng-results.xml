@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-04T15:35:47 IST" name="Default suite" finished-at="2022-08-04T15:35:51 IST" duration-ms="4340">
+  <suite started-at="2022-08-09T18:23:27 IST" name="Default suite" finished-at="2022-08-09T18:23:41 IST" duration-ms="14224">
     <groups>
     </groups>
-    <test started-at="2022-08-04T15:35:47 IST" name="Default test" finished-at="2022-08-04T15:35:51 IST" duration-ms="4340">
-      <class name="LoginToApplication.loginToApplicationTest">
-        <test-method is-config="true" signature="dbConfig()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-04T15:35:47 IST" name="dbConfig" finished-at="2022-08-04T15:35:47 IST" duration-ms="6" status="PASS">
+    <test started-at="2022-08-09T18:23:27 IST" name="Default test" finished-at="2022-08-09T18:23:41 IST" duration-ms="14224">
+      <class name="Emplyoee.EmployeeUpdateProfile">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:27 IST" name="dbConfig" finished-at="2022-08-09T18:23:27 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConfig -->
-        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-04T15:35:47 IST" name="launchTheBrowser" finished-at="2022-08-04T15:35:49 IST" duration-ms="2855" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:27 IST" name="launchTheBrowser" finished-at="2022-08-09T18:23:30 IST" duration-ms="3210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-04T15:35:49 IST" name="loginToAppln" finished-at="2022-08-04T15:35:50 IST" duration-ms="773" status="PASS">
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:30 IST" name="loginToAppln" finished-at="2022-08-09T18:23:31 IST" duration-ms="583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAppln -->
-        <test-method signature="login()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-04T15:35:50 IST" name="login" finished-at="2022-08-04T15:35:50 IST" duration-ms="3" status="PASS">
+        <test-method signature="updateProfile()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:31 IST" name="updateProfile" finished-at="2022-08-09T18:23:40 IST" duration-ms="9624" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-04T15:35:50 IST" name="logoutFromAppln" finished-at="2022-08-04T15:35:51 IST" duration-ms="501" status="PASS">
+        </test-method> <!-- updateProfile -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:40 IST" name="logoutFromAppln" finished-at="2022-08-09T18:23:41 IST" duration-ms="535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromAppln -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-04T15:35:51 IST" name="closeTheBrowser" finished-at="2022-08-04T15:35:51 IST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:41 IST" name="closeTheBrowser" finished-at="2022-08-09T18:23:41 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-04T15:35:51 IST" name="closeDBconfig" finished-at="2022-08-04T15:35:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:Emplyoee.EmployeeUpdateProfile@7d4f9aae]" started-at="2022-08-09T18:23:41 IST" name="closeDBconfig" finished-at="2022-08-09T18:23:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBconfig -->
-      </class> <!-- LoginToApplication.loginToApplicationTest -->
+      </class> <!-- Emplyoee.EmployeeUpdateProfile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

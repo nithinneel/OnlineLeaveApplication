@@ -14,7 +14,7 @@ public class EmpUserProfilePage {
 	//Decleration
 	@FindBy(id = "userPersonalPhoneNumber") private WebElement userPersonalPhoneNumberTextFd;
 	@FindBy(id = "userPresentAddress") private WebElement userPresentAddressTextFd;
-	@FindBy(id = "userPassword") private WebElement userNameTextfd;
+	@FindBy(id = "userPassword") private WebElement userPasswordTextfd;
 	@FindBy(name = "btnUserInfoUpdate") private WebElement updateBtn;
 	@FindBy(id = "menu-toggle") private WebElement menuBar;
 	
@@ -25,14 +25,23 @@ public class EmpUserProfilePage {
 	public WebElement getUserPresentAddressTextFd() {
 		return userPresentAddressTextFd;
 	}
-	public WebElement getUserNameTextfd() {
-		return userNameTextfd;
+	public WebElement getUserPasswordTextfd() {
+		return userPasswordTextfd;
 	}
 	public WebElement getUpdateBtn() {
 		return updateBtn;
 	}
 	public WebElement getMenuBar() {
 		return menuBar;
+	}
+	
+	
+	public void updateUserData(String personalNumber,String presentAddress) {
+		userPersonalPhoneNumberTextFd.sendKeys(personalNumber);
+		userPresentAddressTextFd.sendKeys(presentAddress);
+		updateBtn.click();
+		
+		
 		
 	}
 }
