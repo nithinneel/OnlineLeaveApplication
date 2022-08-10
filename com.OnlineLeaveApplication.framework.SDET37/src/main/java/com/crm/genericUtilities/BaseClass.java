@@ -67,7 +67,9 @@ public class BaseClass
 			driver=new FirefoxDriver();
 		}else if(BROWSER.equalsIgnoreCase("chrome"))
 		{
+			System.out.println("1");
 			WebDriverManager.chromedriver().setup();
+			//System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		else {
