@@ -1,9 +1,5 @@
 package com.hr.admin;
 
-import org.checkerframework.common.reflection.qual.NewInstance;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import com.crm.genericUtilities.BaseClass;
@@ -17,6 +13,7 @@ import com.crm.objectRepository.onlineLeaveApplicationPage;
  *
  */
 public class Admin extends BaseClass{
+
 	@Test
 	public void adminApplyForLeaveAndCheck() throws Throwable {
 		//WebDriver driver=null;
