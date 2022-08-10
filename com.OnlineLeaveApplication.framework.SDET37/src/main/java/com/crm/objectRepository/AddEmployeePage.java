@@ -125,4 +125,5 @@ public class AddEmployeePage extends WebDriverUtility{
 	public void saveEmpDetails() {
 		addEmployeeButton.click();
 	}
+	
 }
