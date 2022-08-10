@@ -14,8 +14,8 @@ public class GoToApplicationPage {
 
 	//initialisationn
 	public GoToApplicationPage(WebDriver driver)
-	{ PageFactory.initElements(driver, this);
-
+	{ 
+		PageFactory.initElements(driver, this);
 	}
 
 	//declaration
@@ -29,7 +29,9 @@ public class GoToApplicationPage {
 	public void recommendBtn(WebDriver driver)
 	{
 		recommendbtn.click();
+
 	}
+<<<<<<< HEAD
 	public WebElement getadmintext() {
 		return adminleave;
 	}
@@ -40,4 +42,6 @@ public class GoToApplicationPage {
 
 
 
+=======
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
 }

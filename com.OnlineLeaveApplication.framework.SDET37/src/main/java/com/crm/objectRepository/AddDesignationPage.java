@@ -6,7 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.crm.genericUtilities.WebDriverUtility;
-
+/**
+ * 
+ * @author Zabiulla
+ *
+ */
 public class AddDesignationPage extends WebDriverUtility{
 	//Initilization
 	public AddDesignationPage(WebDriver driver) {
@@ -30,7 +34,9 @@ public class AddDesignationPage extends WebDriverUtility{
 	}
 	
 	public void selectDepartment(String departmentName) {
-		selectDropDown(departmentDrpDwn, departmentName);
+		
+		selectDropDownByVtext(departmentDrpDwn, departmentName);
+		//addDestinationBtn.click();
 	}
-	
+
 }
