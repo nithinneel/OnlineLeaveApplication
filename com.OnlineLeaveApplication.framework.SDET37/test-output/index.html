@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-skipped">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,8 +51,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+<<<<<<< HEAD
+                    <span>C:\Users\nithi\AppData\Local\Temp\testng-eclipse-1059992583\testng-customsuite.xml</span>
+=======
                     <span>C:\Users\nithi\AppData\Local\Temp\testng-eclipse--415699985\testng-customsuite.xml</span>
                     <span>C:\Users\HP\AppData\Local\Temp\testng-eclipse--943507675\testng-customsuite.xml</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -94,23 +98,28 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content skipped suite-Default_suite">
                       <span>
+<<<<<<< HEAD
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="LoginToApplication.LoginToApplicationAsAdmin" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+=======
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication" class="method navigator-link" hash-for-method="adminApprovveLeaveApplication">adminApprovveLeaveApplication</a> <!-- method navigator-link -->
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="Emplyoee.EmployeeUpdateProfile" class="method navigator-link" hash-for-method="updateProfile">updateProfile</a> <!-- method navigator-link -->
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,16 +131,36 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
+<<<<<<< HEAD
+              <img src="skipped.png"/>
+              <span class="class-name">LoginToApplication.LoginToApplicationAsAdmin</span>
+=======
               <img src="failed.png"/>
               <span class="class-name">com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication</span>
               <img src="passed.png"/>
               <span class="class-name">Emplyoee.EmployeeUpdateProfile</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+<<<<<<< HEAD
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1416)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1432)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1413)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1406)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:417)
+	at com.crm.genericUtilities.BaseClass.launchTheBrowser(BaseClass.java:70)
+=======
                   <a name="adminApprovveLeaveApplication">
                   </a> <!-- adminApprovveLeaveApplication -->
                   <span class="method-name">adminApprovveLeaveApplication</span>
@@ -165,18 +194,17 @@ Session ID: ea7b51270ececa66582e5e56abd2b562
 	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
 	at com.crm.objectRepository.OlmHomePage.Application(OlmHomePage.java:75)
 	at com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication.adminApprovveLeaveApplication(AdminApproveOrDeclineTheLeaveApplication.java:24)
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
@@ -193,20 +221,64 @@ Session ID: ea7b51270ececa66582e5e56abd2b562
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1570)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:103)
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1437)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1272)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1191)
+	... 33 more
+Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:118)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:175)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1555)
+	... 37 more
 
 </div> <!-- stack-trace -->
+<<<<<<< HEAD
+=======
                   <a name="updateProfile">
                   </a> <!-- updateProfile -->
                   <span class="method-name">updateProfile</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-skipped -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
+<<<<<<< HEAD
+            <span class="header-content">C:\Users\nithi\AppData\Local\Temp\testng-eclipse-1059992583\testng-customsuite.xml</span>
+=======
             <span class="header-content">C:\Users\nithi\AppData\Local\Temp\testng-eclipse--415699985\testng-customsuite.xml</span>
             <span class="header-content">C:\Users\HP\AppData\Local\Temp\testng-eclipse--943507675\testng-customsuite.xml</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -215,8 +287,12 @@ Session ID: ea7b51270ececa66582e5e56abd2b562
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
+<<<<<<< HEAD
+      &lt;class name=&quot;LoginToApplication.LoginToApplicationAsAdmin&quot;/&gt;
+=======
       &lt;class name=&quot;com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication&quot;/&gt;
       &lt;class name=&quot;Emplyoee.EmployeeUpdateProfile&quot;/&gt;
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -258,18 +334,28 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
+<<<<<<< HEAD
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'LoginToApplication.LoginToApplicationAsAdmin')
+data.setCell(0, 3, 0);
+=======
 data.setCell(0, 1, 'adminApprovveLeaveApplication')
 data.setCell(0, 2, 'com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication')
 data.setCell(0, 3, 10044);
 data.setCell(0, 1, 'updateProfile')
 data.setCell(0, 2, 'Emplyoee.EmployeeUpdateProfile')
 data.setCell(0, 3, 9624);
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
+<<<<<<< HEAD
+              <span class="suite-total-time">Total running time: 0 ms</span>
+=======
               <span class="suite-total-time">Total running time: 10 seconds</span>
               <span class="suite-total-time">Total running time: 9 seconds</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -295,36 +381,66 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+<<<<<<< HEAD
+              <div class="chronological-class-name">LoginToApplication.LoginToApplicationAsAdmin</div> <!-- chronological-class-name -->
+=======
               <div class="chronological-class-name">com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication</div> <!-- chronological-class-name -->
               <div class="chronological-class-name">Emplyoee.EmployeeUpdateProfile</div> <!-- chronological-class-name -->
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
               <div class="configuration-suite before">
                 <span class="method-name">dbConfig</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">launchTheBrowser</span>
+<<<<<<< HEAD
+                <span class="method-start">26 ms</span>
+=======
                 <span class="method-start">20 ms</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">loginToAppln</span>
+<<<<<<< HEAD
+                <span class="method-start">31141 ms</span>
+=======
                 <span class="method-start">2371 ms</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
               </div> <!-- configuration-method before -->
               <div class="test-method">
+<<<<<<< HEAD
+                <span class="method-name">login</span>
+                <span class="method-start">31144 ms</span>
+=======
                 <img src="failed.png">
                 </img>
                 <span class="method-name">adminApprovveLeaveApplication</span>
                 <span class="method-start">2739 ms</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logoutFromAppln</span>
+<<<<<<< HEAD
+                <span class="method-start">31150 ms</span>
+=======
                 <span class="method-start">12788 ms</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeTheBrowser</span>
+<<<<<<< HEAD
+                <span class="method-start">31152 ms</span>
+=======
                 <span class="method-start">12944 ms</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">closeDBconfig</span>
+<<<<<<< HEAD
+                <span class="method-start">31199 ms</span>
+=======
                 <span class="method-start">13180 ms</span>
                 <span class="method-start">29 ms</span>
               </div> <!-- configuration-class before -->
@@ -347,6 +463,7 @@ return data;
               <div class="configuration-suite after">
                 <span class="method-name">closeDBconfig</span>
                 <span class="method-start">14266 ms</span>
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

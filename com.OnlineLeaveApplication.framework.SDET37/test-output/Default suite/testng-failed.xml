@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication">
+      <class name="LoginToApplication.LoginToApplicationAsAdmin">
         <methods>
-          <include name="adminApprovveLeaveApplication"/>
           <include name="logoutFromAppln"/>
+          <include name="login"/>
           <include name="closeDBconfig"/>
           <include name="loginToAppln"/>
           <include name="closeTheBrowser"/>
           <include name="launchTheBrowser"/>
           <include name="dbConfig"/>
         </methods>
-      </class> <!-- com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication -->
+      </class> <!-- LoginToApplication.LoginToApplicationAsAdmin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
