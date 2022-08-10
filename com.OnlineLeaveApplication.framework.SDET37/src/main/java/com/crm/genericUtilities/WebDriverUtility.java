@@ -1,9 +1,8 @@
 package com.crm.genericUtilities;
 
-<<<<<<< HEAD
-=======
+
 import java.awt.AWTException;
->>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -366,14 +365,14 @@ public class WebDriverUtility {
 		JavascriptExecutor javaScript = (JavascriptExecutor)driver;
 		javaScript.executeScript("window.scrollBy(0,500)");
 	}
-<<<<<<< HEAD
+
 	public void EnterTabandClickondestination() throws Throwable {
 		Robot robot = new Robot();
 		robot.keyPress(KeyEvent.VK_TAB);
 		robot.keyRelease(KeyEvent.VK_TAB);
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
-=======
+
 	
 	public void EnterTabAndClickOnDestination() throws AWTException
 	{
@@ -392,6 +391,5 @@ public class WebDriverUtility {
 			System.out.println(text);
 		}
 			
->>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
 	}
 }
