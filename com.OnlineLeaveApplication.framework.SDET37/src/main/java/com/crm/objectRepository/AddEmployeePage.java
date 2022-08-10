@@ -77,7 +77,6 @@ public class AddEmployeePage extends WebDriverUtility{
 		return addEmployeeButton;
 	}
 	
-	
 	//Method Implementation on WebElement
 	public void addEmployeeDepartmentOptions(String empdeptName) {
 		selectDropDownByVtext(empDepartmentOptions, empdeptName);
