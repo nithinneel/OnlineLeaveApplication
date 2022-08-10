@@ -31,7 +31,7 @@ public class GoToApplicationPage {
 		recommendbtn.click();
 
 	}
-<<<<<<< HEAD
+
 	public WebElement getadmintext() {
 		return adminleave;
 	}
@@ -39,9 +39,4 @@ public class GoToApplicationPage {
 	public String admintextname() {
 		return adminleave.getText();
 	}
-
-
-
-=======
->>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
 }
