@@ -77,25 +77,7 @@ public class AddEmployeePage extends WebDriverUtility{
 		return addEmployeeButton;
 	}
 	
-	public void addEmployeePage(String empDept,String empDesignation,String empCodeNumb,String empMailIds,String empPasword,String empFirstName,String empLastName,String empDOB,String empBloodgroup, String empGender,String empPersonalNumb,String empOfficeNumb, String employeePermanentAddress,String employeePresentAddress) throws InterruptedException {
-		selectDropDownByVtext(empDepartmentOptions, empDept);
-		Thread.sleep(3000);
-		selectDropDownByVtext(empDesignationOptions, empDesignation);
-		empCodeNumberTextField.sendKeys(empCodeNumb);
-		empMailId.sendKeys(empMailIds);
-		empLoginPassword.sendKeys(empPasword);
-		empFirstNameTextField.sendKeys(empFirstName);
-		empLastNameTextField.sendKeys(empLastName);
-		empDOBtextField.sendKeys(empDOB);
-		selectDropDownByVtext(empBloodGroupOptions, empBloodgroup);
-		selectDropDown(empGenderOptions, empGender);
-		empPersonalPhoneNumber.sendKeys(empPersonalNumb);
-		empOfficePhoneNumber.sendKeys(empOfficeNumb);
-		empPermanentAddress.sendKeys(employeePermanentAddress);
-		empPresentAddress.sendKeys(employeePresentAddress);
-		addEmployeeButton.click();
-	}
-	
+	//Method Implementation on WebElement
 	public void addEmployeeDepartmentOptions(String empdeptName) {
 		selectDropDownByVtext(empDepartmentOptions, empdeptName);
 	}
