@@ -121,6 +121,8 @@ public class AddEmployeePage extends WebDriverUtility{
 	public void addEmployeePresentAddress(String empPresentAddres) {
 		empPresentAddress.sendKeys(empPresentAddres);
 	}
+	
+	//Save the Empoyee Details
 	public void saveEmpDetails() {
 		addEmployeeButton.click();
 	}
