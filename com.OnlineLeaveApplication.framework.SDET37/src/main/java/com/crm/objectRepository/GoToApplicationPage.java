@@ -21,6 +21,9 @@ public class GoToApplicationPage {
 	//declaration
 	@FindBy(xpath="//button[@name='btnRecomand']")
 	private WebElement recommendbtn;
+	
+	@FindBy(xpath = "//div[@class=\"table-responsive\"]//tbody//td[text()='User Id :BOE0001']")
+	private WebElement adminleave;
 
 	//utilisation
 	public void recommendBtn(WebDriver driver)
@@ -28,4 +31,17 @@ public class GoToApplicationPage {
 		recommendbtn.click();
 
 	}
+<<<<<<< HEAD
+	public WebElement getadmintext() {
+		return adminleave;
+	}
+	
+	public String admintextname() {
+		return adminleave.getText();
+	}
+
+
+
+=======
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
 }
