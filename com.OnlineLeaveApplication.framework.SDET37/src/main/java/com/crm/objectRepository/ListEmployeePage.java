@@ -24,4 +24,4 @@ public class ListEmployeePage extends WebDriverUtility{
 		selectDropDown(deptDropDown, department);
 	}
 }
->>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+
