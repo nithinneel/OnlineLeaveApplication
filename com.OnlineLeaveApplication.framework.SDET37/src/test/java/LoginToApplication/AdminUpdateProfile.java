@@ -22,6 +22,7 @@ public class AdminUpdateProfile extends BaseClass {
 		String updateVerification = adminuserprofilepage.getUpdateVerification().getText();
 		assertTrue(updateVerification.contains("Successfully Updated"));
 		Reporter.log("Admin Data is Updated",true);
+		//sysis
 	}
 
 }

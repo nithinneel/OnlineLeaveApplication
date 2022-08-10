@@ -22,6 +22,7 @@ public class AdminDeclineLeaveApplication  extends BaseClass{
 		homepage.RecommendedApplication();
 		GoToRecommendedLeaveApplication recommandedapplication = new GoToRecommendedLeaveApplication(driver);
 		recommandedapplication.declineBtn();
+		//delete this durning merge
 	}
 
 }
