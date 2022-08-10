@@ -77,8 +77,9 @@ public class AddEmployeePage extends WebDriverUtility{
 		return addEmployeeButton;
 	}
 	
-	public void addEmployeePage(String empDept,String empDesignation,String empCodeNumb,String empMailIds,String empPasword,String empFirstName,String empLastName,String empDOB,String empBloodgroup, String empGender,String empPersonalNumb,String empOfficeNumb, String employeePermanentAddress,String employeePresentAddress) {
+	public void addEmployeePage(String empDept,String empDesignation,String empCodeNumb,String empMailIds,String empPasword,String empFirstName,String empLastName,String empDOB,String empBloodgroup, String empGender,String empPersonalNumb,String empOfficeNumb, String employeePermanentAddress,String employeePresentAddress) throws InterruptedException {
 		selectDropDownByVtext(empDepartmentOptions, empDept);
+		Thread.sleep(3000);
 		selectDropDownByVtext(empDesignationOptions, empDesignation);
 		empCodeNumberTextField.sendKeys(empCodeNumb);
 		empMailId.sendKeys(empMailIds);
@@ -95,4 +96,49 @@ public class AddEmployeePage extends WebDriverUtility{
 		addEmployeeButton.click();
 	}
 	
+	public void addEmployeeDepartmentOptions(String empdeptName) {
+		selectDropDownByVtext(empDepartmentOptions, empdeptName);
+	}
+	public void addEmployeeDesignationOptions(String empDesign) {
+		selectDropDownByVtext(empDesignationOptions, empDesign);
+	}
+	public void addEmployeeCodeNumber(String empCodeNumb) {
+		empCodeNumberTextField.sendKeys(empCodeNumb);
+	}
+	public void addEmployeeMailId(String empMailIds) {
+		empMailId.sendKeys(empMailIds);
+	}
+	public void addEmployeeLoginPassword(String empLoginPasswords) {
+		empLoginPassword.sendKeys(empLoginPasswords);
+	}
+	public void addEmployeeFirstName(String empFirstName) {
+		empFirstNameTextField.sendKeys(empFirstName);
+	}
+	public void addEmployeeLastName(String empLastName) {
+		empLastNameTextField.sendKeys(empLastName);
+	}
+	public void addEmployeeDOB(String empDOB) {
+		empDOBtextField.sendKeys(empDOB);
+	}
+	public void addEmployeeBloodGroup(String empBloodGroup) {
+		selectDropDownByVtext(empBloodGroupOptions, empBloodGroup);
+	}
+	public void addEmployeeGender(String empgender) {
+		selectDropDownByVtext(empGenderOptions, empgender);
+	}
+	public void addEmployeePersonalNumber(String empPersonalNumb) {
+		empPersonalPhoneNumber.sendKeys(empPersonalNumb);
+	}
+	public void addEmployeeOfficeNumber(String empOfficeNumb) {
+		empOfficePhoneNumber.sendKeys(empOfficeNumb);
+	}
+	public void addEmployeePermanentAddress(String empPermanenetAddress) {
+		empPermanentAddress.sendKeys(empPermanenetAddress);
+	}
+	public void addEmployeePresentAddress(String empPresentAddres) {
+		empPresentAddress.sendKeys(empPresentAddres);
+	}
+	public void saveEmpDetails() {
+		addEmployeeButton.click();
+	}
 }

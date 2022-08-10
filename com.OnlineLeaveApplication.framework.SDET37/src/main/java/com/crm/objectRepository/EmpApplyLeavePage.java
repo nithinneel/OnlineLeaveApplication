@@ -15,10 +15,10 @@ public class EmpApplyLeavePage {
 	}
 	
 	//Decleration
-	@FindBy(id = "livAltEmpCode") private WebElement alternativeEmpCdNameFd;
+	@FindBy(xpath = "//input[@id='livAltEmpCode']") private WebElement alternativeEmpCdNameFd;
 	@FindBy(xpath = "//input[@name='livEmplivType']") private List<WebElement> leaveTypeRadiobutton;
 	@FindBy(xpath = "//label[.='Casual Leave']") private WebElement casualLeave;
-	@FindBy(xpath = "//label[.='Sick Leave']")private WebElement sickLeave;
+	@FindBy(xpath = "//label[text()='Sick Leave']")private WebElement sickLeave;
 	@FindBy(xpath = "//label[.='Earn Leave']") private WebElement earnLeave;
 	@FindBy(xpath = "//label[.='Maternity Leave']") private WebElement maternityLeave;
 	@FindBy(xpath = "//label[.='Paternity Leave']") private WebElement paternityLeave;
@@ -78,10 +78,21 @@ public class EmpApplyLeavePage {
 	public List<WebElement> getLeaveTypeRadiobutton() {
 		return leaveTypeRadiobutton;
 	}
+	public void ApplyLeave(String empName,String text,String fromDate,String toDate,String contactAddress)
+	{
+		alternativeEmpCdNameFd.sendKeys(empName);
+		sickLeave.click();
+		leaveReasonTextFd.sendKeys(text);
+		fromDateCalenderTextFd.sendKeys(fromDate);
+		toDateCalenderTextFd.sendKeys(toDate);
+		contactAddressDurningLeaveTextFd.sendKeys(contactAddress);
+		applyBtn.click();
+		
+	}
 	
 	public void selectRadioButton(String leaveTypeRadionText) {
        for (WebElement webElement : leaveTypeRadiobutton) {
-    	   if (webElement.getText().equalsIgnoreCase(leaveTypeRadionText)) {
+    	   if (webElement.getText().contains(leaveTypeRadionText)) {
     		   webElement.click();
 			break;
 		}

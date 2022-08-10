@@ -1,37 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-09T18:03:02 IST" name="Default suite" finished-at="2022-08-09T18:03:13 IST" duration-ms="11503">
+  <suite started-at="2022-08-10T13:11:01 IST" name="Default suite" finished-at="2022-08-10T13:11:24 IST" duration-ms="23357">
     <groups>
     </groups>
-    <test started-at="2022-08-09T18:03:02 IST" name="Default test" finished-at="2022-08-09T18:03:13 IST" duration-ms="11503">
+    <test started-at="2022-08-10T13:11:01 IST" name="Default test" finished-at="2022-08-10T13:11:24 IST" duration-ms="23357">
       <class name="com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest">
-        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-09T18:03:02 IST" name="dbConfig" finished-at="2022-08-09T18:03:02 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-10T13:11:01 IST" name="dbConfig" finished-at="2022-08-10T13:11:01 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConfig -->
-        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-09T18:03:02 IST" name="launchTheBrowser" finished-at="2022-08-09T18:03:06 IST" duration-ms="4753" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-10T13:11:01 IST" name="launchTheBrowser" finished-at="2022-08-10T13:11:06 IST" duration-ms="4910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-09T18:03:07 IST" name="loginToAppln" finished-at="2022-08-09T18:03:07 IST" duration-ms="677" status="PASS">
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-10T13:11:06 IST" name="loginToAppln" finished-at="2022-08-10T13:11:07 IST" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAppln -->
-        <test-method signature="addEmployeeDetails()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-09T18:03:07 IST" name="addEmployeeDetails" finished-at="2022-08-09T18:03:13 IST" duration-ms="5450" status="PASS">
+        <test-method signature="addEmployeeDetails()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-10T13:11:07 IST" name="addEmployeeDetails" finished-at="2022-08-10T13:11:24 IST" duration-ms="16871" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Executive
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-1TK4TSS', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Executive
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-1TK4TSS', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+at com.crm.genericUtilities.WebDriverUtility.selectDropDownByVtext(WebDriverUtility.java:308)
+at com.crm.objectRepository.AddEmployeePage.addEmployeePage(AddEmployeePage.java:83)
+at com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest.addEmployeeDetails(AddEmployeeTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEmployeeDetails -->
-        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-09T18:03:13 IST" name="logoutFromAppln" finished-at="2022-08-09T18:03:13 IST" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-10T13:11:24 IST" name="logoutFromAppln" finished-at="2022-08-10T13:11:24 IST" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromAppln -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-09T18:03:13 IST" name="closeTheBrowser" finished-at="2022-08-09T18:03:13 IST" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-10T13:11:24 IST" name="closeTheBrowser" finished-at="2022-08-10T13:11:24 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-09T18:03:13 IST" name="closeDBconfig" finished-at="2022-08-09T18:03:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@201a4587]" started-at="2022-08-10T13:11:25 IST" name="closeDBconfig" finished-at="2022-08-10T13:11:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBconfig -->
