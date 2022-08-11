@@ -26,7 +26,7 @@ public class GoToApplicationPage {
 	private WebElement adminleave;
 
 	//utilisation
-	public void recommendBtn(WebDriver driver)
+	public void recommendBtn()
 	{
 		recommendbtn.click();
 

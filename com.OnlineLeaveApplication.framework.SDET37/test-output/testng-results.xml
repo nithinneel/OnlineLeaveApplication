@@ -1,47 +1,589 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+=======
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+=======
+
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
   <reporter-output>
     <line>
       <![CDATA[Pass: Employee is created]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2022-08-11T10:18:35 IST" name="Default suite" finished-at="2022-08-11T10:19:01 IST" duration-ms="25966">
+=======
+<<<<<<< HEAD
+  <suite started-at="2022-08-11T10:51:15 IST" name="Default suite" finished-at="2022-08-11T10:51:44 IST" duration-ms="29325">
+=======
+  <suite started-at="2022-08-10T15:20:59 IST" name="Default suite" finished-at="2022-08-10T15:21:14 IST" duration-ms="14819">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2022-08-11T10:18:35 IST" name="Default test" finished-at="2022-08-11T10:19:01 IST" duration-ms="25966">
       <class name="com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest">
         <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:18:35 IST" name="dbConfig" finished-at="2022-08-11T10:18:35 IST" duration-ms="17" status="PASS">
+=======
+<<<<<<< HEAD
+    <test started-at="2022-08-11T10:51:15 IST" name="Default test" finished-at="2022-08-11T10:51:44 IST" duration-ms="29325">
+      <class name="com.hr.admin.Adminmod2">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:15 IST" name="dbConfig" finished-at="2022-08-11T10:51:15 IST" duration-ms="10" status="PASS">
+=======
+    <test started-at="2022-08-10T15:20:59 IST" name="Default test" finished-at="2022-08-10T15:21:14 IST" duration-ms="14819">
+      <class name="LoginToApplication.loginToApplicationTest">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:20:59 IST" name="dbConfig" finished-at="2022-08-10T15:20:59 IST" duration-ms="9" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConfig -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:18:35 IST" name="launchTheBrowser" finished-at="2022-08-11T10:18:48 IST" duration-ms="13175" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:15 IST" name="launchTheBrowser" finished-at="2022-08-11T10:51:38 IST" duration-ms="23350" status="PASS">
+=======
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:20:59 IST" name="launchTheBrowser" finished-at="2022-08-10T15:21:02 IST" duration-ms="3516" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:18:48 IST" name="loginToAppln" finished-at="2022-08-11T10:18:50 IST" duration-ms="1245" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:38 IST" name="loginToAppln" finished-at="2022-08-11T10:51:39 IST" duration-ms="651" status="PASS">
+=======
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:21:02 IST" name="loginToAppln" finished-at="2022-08-10T15:21:03 IST" duration-ms="811" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAppln -->
+<<<<<<< HEAD
         <test-method signature="addEmployeeDetails()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:18:50 IST" name="addEmployeeDetails" finished-at="2022-08-11T10:19:00 IST" duration-ms="10652" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method signature="UsersLeaveDetails()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:39 IST" name="UsersLeaveDetails" finished-at="2022-08-11T10:51:41 IST" duration-ms="2152" status="PASS">
+=======
+        <test-method signature="login()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:21:03 IST" name="login" finished-at="2022-08-10T15:21:13 IST" duration-ms="10026" status="FAIL">
+
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+
+  <reporter-output>
+  </reporter-output>
+
+  <suite started-at="2022-08-10T14:51:36 IST" name="Default suite" finished-at="2022-08-10T14:52:01 IST" duration-ms="24469">
+
+  <suite started-at="2022-08-10T12:58:25 IST" name="Default suite" finished-at="2022-08-10T12:58:32 IST" duration-ms="7171">
+
+  <suite started-at="2022-08-10T11:25:28 IST" name="Default suite" finished-at="2022-08-10T11:25:59 IST" duration-ms="31147">
+
+  <suite started-at="2022-08-09T16:28:23 IST" name="Default suite" finished-at="2022-08-09T16:28:36 IST" duration-ms="13154">
+
+    <groups>
+    </groups>
+
+    <test started-at="2022-08-10T12:58:25 IST" name="Default test" finished-at="2022-08-10T12:58:32 IST" duration-ms="7171">
+      <class name="com.hr.admin.Admin">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.hr.admin.Admin@1e0b4072]" started-at="2022-08-10T12:58:25 IST" name="dbConfig" finished-at="2022-08-10T12:58:25 IST" duration-ms="7" status="PASS">
+
+    <test started-at="2022-08-10T11:25:28 IST" name="Default test" finished-at="2022-08-10T11:25:59 IST" duration-ms="31147">
+      <class name="LoginToApplication.LoginToApplicationAsAdmin">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:28 IST" name="dbConfig" finished-at="2022-08-10T11:25:28 IST" duration-ms="8" status="PASS">
+
+    <test started-at="2022-08-09T16:28:23 IST" name="Default test" finished-at="2022-08-09T16:28:36 IST" duration-ms="13154">
+      <class name="com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:23 IST" name="dbConfig" finished-at="2022-08-09T16:28:23 IST" duration-ms="6" status="PASS">
+
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConfig -->
+
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.hr.admin.Admin@1e0b4072]" started-at="2022-08-10T12:58:25 IST" name="launchTheBrowser" finished-at="2022-08-10T12:58:29 IST" duration-ms="3441" status="PASS">
+
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:28 IST" name="launchTheBrowser" finished-at="2022-08-10T11:25:59 IST" duration-ms="31085" status="FAIL">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:23 IST" name="launchTheBrowser" finished-at="2022-08-09T16:28:25 IST" duration-ms="2342" status="PASS">
+
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.hr.admin.Admin@1e0b4072]" started-at="2022-08-10T12:58:29 IST" name="loginToAppln" finished-at="2022-08-10T12:58:29 IST" duration-ms="533" status="PASS">
+
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:25 IST" name="loginToAppln" finished-at="2022-08-09T16:28:25 IST" duration-ms="367" status="PASS">
+
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+
+        <test-method signature="adminApplyForLeaveAndCheck()[pri:0, instance:com.hr.admin.Admin@1e0b4072]" started-at="2022-08-10T12:58:29 IST" name="adminApplyForLeaveAndCheck" finished-at="2022-08-10T12:58:32 IST" duration-ms="2601" status="PASS">
+
+        <test-method signature="adminApprovveLeaveApplication()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:25 IST" name="adminApprovveLeaveApplication" finished-at="2022-08-09T16:28:35 IST" duration-ms="10044" status="FAIL">
+
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#form\-username"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-CF032BAC', ip: '192.168.111.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a55e0bb45276235c1c00b4f02e7145d, findElement {using=id, value=form-username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.29 (eff877e18f76..., userDataDir: C:\Users\nithi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54099/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a55e0bb45276235c1c00b4f02e7145d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#form\-username"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-CF032BAC', ip: '192.168.111.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a55e0bb45276235c1c00b4f02e7145d, findElement {using=id, value=form-username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.29 (eff877e18f76..., userDataDir: C:\Users\nithi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54099/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a55e0bb45276235c1c00b4f02e7145d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+at com.crm.objectRepository.LoginPage.logintoOLMT(LoginPage.java:36)
+at LoginToApplication.loginToApplicationTest.login(loginToApplicationTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
             <line>
               <![CDATA[Pass: Employee is created]]>
             </line>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- addEmployeeDetails -->
         <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:19:00 IST" name="logoutFromAppln" finished-at="2022-08-11T10:19:01 IST" duration-ms="423" status="PASS">
+=======
+<<<<<<< HEAD
+        </test-method> <!-- UsersLeaveDetails -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:41 IST" name="logoutFromAppln" finished-at="2022-08-11T10:51:41 IST" duration-ms="186" status="PASS">
+=======
+
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:59 IST" name="loginToAppln" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1660110959562" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="login()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:59 IST" name="login" finished-at="2022-08-10T11:25:59 IST" duration-ms="0" status="SKIP">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1416)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1432)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1413)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1406)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:417)
+at com.crm.genericUtilities.BaseClass.launchTheBrowser(BaseClass.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1570)
+at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:103)
+at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1437)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1272)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1191)
+... 33 more
+Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:118)
+at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:175)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
+at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1555)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+
+          <reporter-output>
+          </reporter-output>
+
+        </test-method> <!-- adminApplyForLeaveAndCheck -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.hr.admin.Admin@1e0b4072]" started-at="2022-08-10T12:58:32 IST" name="logoutFromAppln" finished-at="2022-08-10T12:58:32 IST" duration-ms="144" status="PASS">
+
+        </test-method> <!-- login -->
+
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:21:13 IST" name="logoutFromAppln" finished-at="2022-08-10T15:21:13 IST" duration-ms="167" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromAppln -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:19:01 IST" name="closeTheBrowser" finished-at="2022-08-11T10:19:01 IST" duration-ms="365" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:41 IST" name="closeTheBrowser" finished-at="2022-08-11T10:51:44 IST" duration-ms="2483" status="PASS">
+=======
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:21:13 IST" name="closeTheBrowser" finished-at="2022-08-10T15:21:14 IST" duration-ms="255" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:19:01 IST" name="closeDBconfig" finished-at="2022-08-11T10:19:01 IST" duration-ms="0" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:44 IST" name="closeDBconfig" finished-at="2022-08-11T10:51:44 IST" duration-ms="0" status="PASS">
+=======
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:21:14 IST" name="closeDBconfig" finished-at="2022-08-10T15:21:14 IST" duration-ms="1" status="PASS">
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBconfig -->
+<<<<<<< HEAD
       </class> <!-- com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest -->
+=======
+<<<<<<< HEAD
+      </class> <!-- com.hr.admin.Adminmod2 -->
+=======
+      </class> <!-- LoginToApplication.loginToApplicationTest -->
+
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:59 IST" name="logoutFromAppln" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1660110959571" status="SKIP">
+        </test-method> <!-- adminApprovveLeaveApplication -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:35 IST" name="logoutFromAppln" finished-at="2022-08-09T16:28:36 IST" duration-ms="155" status="PASS">
+
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAppln -->
+
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.hr.admin.Admin@1e0b4072]" started-at="2022-08-10T12:58:32 IST" name="closeTheBrowser" finished-at="2022-08-10T12:58:32 IST" duration-ms="417" status="PASS">
+
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:59 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1660110959573" status="SKIP">
+
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:36 IST" name="closeTheBrowser" finished-at="2022-08-09T16:28:36 IST" duration-ms="215" status="PASS">
+
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.hr.admin.Admin@1e0b4072]" started-at="2022-08-10T12:58:32 IST" name="closeDBconfig" finished-at="2022-08-10T12:58:32 IST" duration-ms="0" status="PASS">
+
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:LoginToApplication.LoginToApplicationAsAdmin@1e0b4072]" started-at="2022-08-10T11:25:59 IST" name="closeDBconfig" finished-at="2022-08-10T11:25:59 IST" duration-ms="1" status="PASS">
+
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication@1e0b4072]" started-at="2022-08-09T16:28:36 IST" name="closeDBconfig" finished-at="2022-08-09T16:28:36 IST" duration-ms="1" status="PASS">
+
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconfig -->
+
+      </class> <!-- com.hr.admin.Admin -->
+
+      </class> <!-- LoginToApplication.LoginToApplicationAsAdmin -->
+
+      </class> <!-- com.crm.adminApproveApplication.AdminApproveOrDeclineTheLeaveApplication -->
+  <suite started-at="2022-08-09T18:23:27 IST" name="Default suite" finished-at="2022-08-09T18:23:41 IST" duration-ms="14224">
+
+    <groups>
+    </groups>
+    <test started-at="2022-08-10T14:51:36 IST" name="Default test" finished-at="2022-08-10T14:52:01 IST" duration-ms="24469">
+      <class name="LoginToApplication.AdminUpdateProfile">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:LoginToApplication.AdminUpdateProfile@7d4f9aae]" started-at="2022-08-10T14:51:36 IST" name="dbConfig" finished-at="2022-08-10T14:51:36 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConfig -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:LoginToApplication.AdminUpdateProfile@7d4f9aae]" started-at="2022-08-10T14:51:36 IST" name="launchTheBrowser" finished-at="2022-08-10T14:51:40 IST" duration-ms="3703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:LoginToApplication.AdminUpdateProfile@7d4f9aae]" started-at="2022-08-10T14:51:40 IST" name="loginToAppln" finished-at="2022-08-10T14:51:41 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="adminUpdateProfile()[pri:0, instance:LoginToApplication.AdminUpdateProfile@7d4f9aae]" started-at="2022-08-10T14:51:41 IST" name="adminUpdateProfile" finished-at="2022-08-10T14:51:51 IST" duration-ms="10120" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=' User Profile']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-2DC4B1N', ip: '192.168.28.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd9d7a9bcd092f98b7b20a495bdb3c21, findElement {using=xpath, value=//a[text()=' User Profile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52195/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cd9d7a9bcd092f98b7b20a495bdb3c21]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=' User Profile']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-2DC4B1N', ip: '192.168.28.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd9d7a9bcd092f98b7b20a495bdb3c21, findElement {using=xpath, value=//a[text()=' User Profile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52195/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cd9d7a9bcd092f98b7b20a495bdb3c21
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.crm.objectRepository.OlmHomePage.UserProfile(OlmHomePage.java:72)
+at LoginToApplication.AdminUpdateProfile.adminUpdateProfile(AdminUpdateProfile.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminUpdateProfile -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:LoginToApplication.AdminUpdateProfile@7d4f9aae]" started-at="2022-08-10T14:51:51 IST" name="logoutFromAppln" finished-at="2022-08-10T14:52:01 IST" duration-ms="10061" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=" Logout"]"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-2DC4B1N', ip: '192.168.28.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd9d7a9bcd092f98b7b20a495bdb3c21, findElement {using=xpath, value=//a[text()=" Logout"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52195/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cd9d7a9bcd092f98b7b20a495bdb3c21]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=" Logout"]"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-2DC4B1N', ip: '192.168.28.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd9d7a9bcd092f98b7b20a495bdb3c21, findElement {using=xpath, value=//a[text()=" Logout"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52195/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cd9d7a9bcd092f98b7b20a495bdb3c21
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.crm.objectRepository.OlmHomePage.Logout(OlmHomePage.java:105)
+at com.crm.genericUtilities.BaseClass.logoutFromAppln(BaseClass.java:117)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAppln -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:LoginToApplication.AdminUpdateProfile@7d4f9aae]" started-at="2022-08-10T14:52:01 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1660123321300" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:LoginToApplication.AdminUpdateProfile@7d4f9aae]" started-at="2022-08-10T14:52:01 IST" name="closeDBconfig" finished-at="2022-08-10T14:52:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconfig -->
+
+      </class> <!-- LoginToApplication.AdminUpdateProfile -->
+
+      </class> <!-- Emplyoee.EmployeeUpdateProfile -->
+
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
