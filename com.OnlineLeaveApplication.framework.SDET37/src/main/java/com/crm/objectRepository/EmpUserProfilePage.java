@@ -37,8 +37,13 @@ public class EmpUserProfilePage {
 	
 	
 	public void updateUserData(String personalNumber,String presentAddress) {
-		userPersonalPhoneNumberTextFd.sendKeys(personalNumber);
-		userPresentAddressTextFd.sendKeys(presentAddress);
+		WebElement updatedPphonenNum = userPersonalPhoneNumberTextFd;
+		updatedPphonenNum.clear();
+		updatedPphonenNum.sendKeys(personalNumber);
+		
+		WebElement updatedPAddress = userPresentAddressTextFd;
+		updatedPAddress.clear();
+		updatedPAddress.sendKeys(presentAddress);
 		updateBtn.click();
 		
 		

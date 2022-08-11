@@ -6,6 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.crm.genericUtilities.WebDriverUtility;
+/**
+ * 
+ * @author SHUBH
+ *
+ */
 
 public class AddEmployeePage extends WebDriverUtility{
 	//Initialization
@@ -29,6 +34,7 @@ public class AddEmployeePage extends WebDriverUtility{
 	@FindBy(name="empParmanentAddress") private WebElement empPermanentAddress;
 	@FindBy(name="empPresentAddress") private WebElement empPresentAddress;
 	@FindBy(name="btnSubmit") private WebElement addEmployeeButton;
+	@FindBy(xpath ="//h3[text()='Employee Added Successfully']") private WebElement createdEmployeedashBoard;
 	
 	//Utilization
 	public WebElement getEmpCodeNumberTextField() {
@@ -75,6 +81,10 @@ public class AddEmployeePage extends WebDriverUtility{
 	}
 	public WebElement getAddEmployeeButton() {
 		return addEmployeeButton;
+	}
+	
+	public WebElement getCreatedEmployeedashBoard() {
+		return createdEmployeedashBoard;
 	}
 	
 	//Method Implementation on WebElement
@@ -126,4 +136,8 @@ public class AddEmployeePage extends WebDriverUtility{
 		addEmployeeButton.click();
 	}
 	
+	public String employeeCreatedDashBoard() {
+		String empCreatedText = createdEmployeedashBoard.getText();
+		return empCreatedText;
+		}
 }

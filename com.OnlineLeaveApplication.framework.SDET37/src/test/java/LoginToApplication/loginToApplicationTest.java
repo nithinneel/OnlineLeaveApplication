@@ -1,18 +1,28 @@
 package LoginToApplication;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import com.crm.genericUtilities.BaseClass;
 
+/**
+ * 
+ * @author nithin
+ *
+ */
+import com.crm.objectRepository.LoginPage;
+
+
 public class loginToApplicationTest extends BaseClass{
-	static WebDriver driver = null;
+	
 		@Test
 		public void login() {
-			System.out.println("executing login page");
+			LoginPage login = new LoginPage(driver);
+			String USERNAME = fLib.getPropertKeyValue("adminUerName");
+			String PASSWORD = fLib.getPropertKeyValue("adminPassword");
+			login.logintoOLMT(USERNAME, PASSWORD);
+			
 		}
-		
-		 
+	 
 	}
 
 
