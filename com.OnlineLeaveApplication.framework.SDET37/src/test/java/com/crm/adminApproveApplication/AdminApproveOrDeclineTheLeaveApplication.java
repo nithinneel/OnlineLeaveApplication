@@ -17,9 +17,7 @@ public class AdminApproveOrDeclineTheLeaveApplication extends BaseClass{
 
 	@Test
 	public void adminApprovveLeaveApplication() throws InterruptedException, AWTException
-	{
-
-		
+	{		
 		//go to home page click on application link
 		OlmHomePage homepage = new OlmHomePage(driver);
 		homepage.Application();

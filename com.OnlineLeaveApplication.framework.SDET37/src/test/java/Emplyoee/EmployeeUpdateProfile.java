@@ -20,42 +20,22 @@ public class EmployeeUpdateProfile  extends BaseClass{
 	@Test
 	public void updateProfile() throws Throwable
 	{
+		
 		//Go to home page and click on User Profile
 		EmpHomePage emphomepage = new EmpHomePage(driver);
 		emphomepage.UserProfile();
 		
 		//Go to user profile page and enter the updated data in their respective textfield
-		EmpUserProfilePage empuserprofilepage = new EmpUserProfilePage(driver);
+		//Enter the Updated personalNumber and Present Address
+		EmpUserProfilePage updateUserProfile = new EmpUserProfilePage(driver);
 		String presentAddress = eLib.readDataFromExcel("Employee_Data", 7, 14);
 		String personalNumber = eLib.readDataFromExcel("Employee_Data", 7, 11);
-		//System.out.println(personalNumber);
-		Thread.sleep(2000);
-		
-//		WebElement empUpdateTextFld = empuserprofilepage.getUserPresentAddressTextFd();
-//		empUpdateTextFld.clear();
-//		empUpdateTextFld.sendKeys(presentAddress);
-//		
-//		Thread.sleep(2000);
-//		 WebElement updatephonenumber = empuserprofilepage.getUserPersonalPhoneNumberTextFd();
-//		 updatephonenumber.clear();
-//		 updatephonenumber.sendKeys(personalNumber);
-//		 
-//		Thread.sleep(2000);
-//		empuserprofilepage.getUpdateBtn().click();
-		EmpUserProfilePage updateUserProfile = new EmpUserProfilePage(driver);
-		Thread.sleep(2000);
 		updateUserProfile.updateUserData(personalNumber, presentAddress);
+		//Page has gone to final submission page and verify
 		EmpApplyLeaveFinalSubmissionPage empfinalsubmission = new EmpApplyLeaveFinalSubmissionPage(driver);
-		Thread.sleep(2000);
 		String verificationtext = empfinalsubmission.getVerification().getText();
 		assertTrue(verificationtext.contains("Successfully Updated"));
 		Reporter.log("Data is updated successfully",true);
-//		if (verificationtext.contains("Successfully Updated")) {
-//			System.out.println("Data is updated");
-//					}
-//		else {
-//			System.out.println("Data is not updated");
-//		}
 		
 	}	
 }
