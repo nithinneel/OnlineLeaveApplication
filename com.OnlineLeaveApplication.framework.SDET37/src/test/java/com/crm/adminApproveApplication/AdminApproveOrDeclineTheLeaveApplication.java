@@ -19,14 +19,15 @@ public class AdminApproveOrDeclineTheLeaveApplication extends BaseClass{
 	public void adminApprovveLeaveApplication() throws InterruptedException, AWTException
 	{
 
+		
 		//go to home page click on application link
 		OlmHomePage homepage = new OlmHomePage(driver);
 		homepage.Application();
 			
 		//goinside the application link and click on recommended button
 		GoToApplicationPage applicationpage=new GoToApplicationPage(driver);
-		applicationpage.recommendBtn(driver);
-
+		applicationpage.recommendBtn();
+		
 		//click on users leavedetails
 		homepage.UsersLeaveDetails();
 
@@ -41,9 +42,11 @@ public class AdminApproveOrDeclineTheLeaveApplication extends BaseClass{
 		homepage.RecommendedApplication();
 
 		//click on decline button
-		GoToRecommendedLeaveApplication recommendedapplication = new GoToRecommendedLeaveApplication(driver);
-		//		recommendedapplication.declineBtn(driver);
-		recommendedapplication.approveBtn(driver);
+
+	GoToRecommendedLeaveApplication recommendedapplication = new GoToRecommendedLeaveApplication(driver);
+//		recommendedapplication.declineBtn(driver);
+		recommendedapplication.approveBtn();
+
 		Thread.sleep(3000);
 		//approve the leave application
 		//recommendedapplication.clickOnCanclelPrint(driver);

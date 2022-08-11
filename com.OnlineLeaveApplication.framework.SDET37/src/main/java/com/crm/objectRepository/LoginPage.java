@@ -15,7 +15,8 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 	//Declaration 
-	@FindBy(name = "officeUserCode") private WebElement userNameTextField;
+	
+	@FindBy(id = "form-username") private WebElement userNameTextField;
 	@FindBy(name = "officeUserPass") private WebElement passwordTextField;
 	@FindBy(name = "btnSubmit") private WebElement loginButton;
 	
@@ -34,7 +35,7 @@ public class LoginPage {
 	public void logintoOLMT(String userName, String Password) {
 		userNameTextField.sendKeys(userName);
 		passwordTextField.sendKeys(Password);
-		loginButton.click();
+		loginButton.submit();
 	}
 	
 }

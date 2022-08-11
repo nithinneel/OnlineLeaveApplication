@@ -20,8 +20,12 @@ public class UserProfilePage {
 	@FindBy(name = "userPersonalPhoneNumber") private WebElement userPersonalPhoneNumber;
 	@FindBy(name = "userPresentAddress") private WebElement userPresentAddress;
 	@FindBy(name = "btnUserInfoUpdate") private WebElement submitBtn;
+	@FindBy(xpath = "//h3[text()='Successfully Updated']") private WebElement updateVerification;
 	
 	
+	public WebElement getUpdateVerification() {
+		return updateVerification;
+	}
 	public WebElement getUserPersonalPhoneNumber() {
 		return userPersonalPhoneNumber;
 	}
@@ -33,8 +37,12 @@ public class UserProfilePage {
 	}
 	
 	public void AdminUpdateProfile(String personalPhoneNumber, String presentAddress) {
-		userPersonalPhoneNumber.sendKeys(personalPhoneNumber);
-		userPresentAddress.sendKeys(presentAddress);
+		WebElement personalNumber = userPersonalPhoneNumber;
+		personalNumber.clear();
+		personalNumber.sendKeys(personalPhoneNumber);
+		WebElement personalAddress = userPresentAddress;
+		personalAddress.clear();
+		personalAddress.sendKeys(presentAddress);
 		submitBtn.click();
 	}
 	
