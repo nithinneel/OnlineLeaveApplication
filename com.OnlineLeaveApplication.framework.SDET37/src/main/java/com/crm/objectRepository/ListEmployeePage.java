@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.crm.genericUtilities.WebDriverUtility;
-
 public class ListEmployeePage extends WebDriverUtility{
 	
 	//initialization
@@ -25,3 +24,4 @@ public class ListEmployeePage extends WebDriverUtility{
 		selectDropDown(deptDropDown, department);
 	}
 }
+

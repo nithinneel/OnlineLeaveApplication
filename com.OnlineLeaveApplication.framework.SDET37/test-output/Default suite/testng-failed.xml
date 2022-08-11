@@ -4,16 +4,25 @@
   <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="LoginToApplication.loginToApplicationTest">
+      <class name="LoginToApplication.AdminUpdateProfile">
+      <class name="com.hr.admin.Admin">
+      <class name="LoginToApplication.LoginToApplicationAsAdmin">
         <methods>
+          <include name="adminApplyForLeaveAndCheck"/>
           <include name="logoutFromAppln"/>
+          <include name="login"/>
           <include name="closeDBconfig"/>
           <include name="login"/>
           <include name="loginToAppln"/>
           <include name="closeTheBrowser"/>
           <include name="launchTheBrowser"/>
+          <include name="adminUpdateProfile"/>
           <include name="dbConfig"/>
         </methods>
       </class> <!-- LoginToApplication.loginToApplicationTest -->
+      </class> <!-- LoginToApplication.AdminUpdateProfile -->
+      </class> <!-- com.hr.admin.Admin -->
+      </class> <!-- LoginToApplication.LoginToApplicationAsAdmin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

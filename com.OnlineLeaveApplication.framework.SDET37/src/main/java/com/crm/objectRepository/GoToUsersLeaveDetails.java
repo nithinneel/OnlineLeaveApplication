@@ -21,7 +21,7 @@ public class GoToUsersLeaveDetails {
 	@FindBy(xpath="//a[.='Go back ']")
 	private WebElement gobackbtn;
 
-	@FindBy(xpath="//a[.='BOE0002']")
+	@FindBy(xpath="//a[.='BOE0001']")
 	private WebElement selectemploye;
 
 	//utilisation
