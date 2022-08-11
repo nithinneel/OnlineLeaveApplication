@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LoginToApplication.LoginToApplicationAsAdmin">
+      <class name="LoginToApplication.loginToApplicationTest">
         <methods>
           <include name="logoutFromAppln"/>
-          <include name="login"/>
           <include name="closeDBconfig"/>
+          <include name="login"/>
           <include name="loginToAppln"/>
           <include name="closeTheBrowser"/>
           <include name="launchTheBrowser"/>
           <include name="dbConfig"/>
         </methods>
-      </class> <!-- LoginToApplication.LoginToApplicationAsAdmin -->
+      </class> <!-- LoginToApplication.loginToApplicationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
