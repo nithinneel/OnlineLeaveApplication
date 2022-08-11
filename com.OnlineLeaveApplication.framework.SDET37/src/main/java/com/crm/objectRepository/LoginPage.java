@@ -35,7 +35,7 @@ public class LoginPage {
 	public void logintoOLMT(String userName, String Password) {
 		userNameTextField.sendKeys(userName);
 		passwordTextField.sendKeys(Password);
-		loginButton.click();
+		loginButton.submit();
 	}
 	
 }
