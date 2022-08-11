@@ -2,18 +2,34 @@
 <<<<<<< HEAD
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
 =======
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+=======
 
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
   <reporter-output>
+    <line>
+      <![CDATA[Pass: Employee is created]]>
+    </line>
   </reporter-output>
+<<<<<<< HEAD
+  <suite started-at="2022-08-11T10:18:35 IST" name="Default suite" finished-at="2022-08-11T10:19:01 IST" duration-ms="25966">
+=======
 <<<<<<< HEAD
   <suite started-at="2022-08-11T10:51:15 IST" name="Default suite" finished-at="2022-08-11T10:51:44 IST" duration-ms="29325">
 =======
   <suite started-at="2022-08-10T15:20:59 IST" name="Default suite" finished-at="2022-08-10T15:21:14 IST" duration-ms="14819">
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
     <groups>
     </groups>
+<<<<<<< HEAD
+    <test started-at="2022-08-11T10:18:35 IST" name="Default test" finished-at="2022-08-11T10:19:01 IST" duration-ms="25966">
+      <class name="com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:18:35 IST" name="dbConfig" finished-at="2022-08-11T10:18:35 IST" duration-ms="17" status="PASS">
+=======
 <<<<<<< HEAD
     <test started-at="2022-08-11T10:51:15 IST" name="Default test" finished-at="2022-08-11T10:51:44 IST" duration-ms="29325">
       <class name="com.hr.admin.Adminmod2">
@@ -23,25 +39,37 @@
       <class name="LoginToApplication.loginToApplicationTest">
         <test-method is-config="true" signature="dbConfig()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:20:59 IST" name="dbConfig" finished-at="2022-08-10T15:20:59 IST" duration-ms="9" status="PASS">
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConfig -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:18:35 IST" name="launchTheBrowser" finished-at="2022-08-11T10:18:48 IST" duration-ms="13175" status="PASS">
+=======
 <<<<<<< HEAD
         <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:15 IST" name="launchTheBrowser" finished-at="2022-08-11T10:51:38 IST" duration-ms="23350" status="PASS">
 =======
         <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:20:59 IST" name="launchTheBrowser" finished-at="2022-08-10T15:21:02 IST" duration-ms="3516" status="PASS">
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:18:48 IST" name="loginToAppln" finished-at="2022-08-11T10:18:50 IST" duration-ms="1245" status="PASS">
+=======
 <<<<<<< HEAD
         <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:38 IST" name="loginToAppln" finished-at="2022-08-11T10:51:39 IST" duration-ms="651" status="PASS">
 =======
         <test-method is-config="true" signature="loginToAppln()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:21:02 IST" name="loginToAppln" finished-at="2022-08-10T15:21:03 IST" duration-ms="811" status="PASS">
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAppln -->
+<<<<<<< HEAD
+        <test-method signature="addEmployeeDetails()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:18:50 IST" name="addEmployeeDetails" finished-at="2022-08-11T10:19:00 IST" duration-ms="10652" status="PASS">
+=======
 <<<<<<< HEAD
         <test-method signature="UsersLeaveDetails()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:39 IST" name="UsersLeaveDetails" finished-at="2022-08-11T10:51:41 IST" duration-ms="2152" status="PASS">
 =======
@@ -180,8 +208,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
 
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
+            <line>
+              <![CDATA[Pass: Employee is created]]>
+            </line>
           </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- addEmployeeDetails -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:19:00 IST" name="logoutFromAppln" finished-at="2022-08-11T10:19:01 IST" duration-ms="423" status="PASS">
+=======
 <<<<<<< HEAD
         </test-method> <!-- UsersLeaveDetails -->
         <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:41 IST" name="logoutFromAppln" finished-at="2022-08-11T10:51:41 IST" duration-ms="186" status="PASS">
@@ -285,25 +321,37 @@ at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.
 
         <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:21:13 IST" name="logoutFromAppln" finished-at="2022-08-10T15:21:13 IST" duration-ms="167" status="PASS">
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromAppln -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:19:01 IST" name="closeTheBrowser" finished-at="2022-08-11T10:19:01 IST" duration-ms="365" status="PASS">
+=======
 <<<<<<< HEAD
         <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:41 IST" name="closeTheBrowser" finished-at="2022-08-11T10:51:44 IST" duration-ms="2483" status="PASS">
 =======
         <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:21:13 IST" name="closeTheBrowser" finished-at="2022-08-10T15:21:14 IST" duration-ms="255" status="PASS">
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest@72e5a8e]" started-at="2022-08-11T10:19:01 IST" name="closeDBconfig" finished-at="2022-08-11T10:19:01 IST" duration-ms="0" status="PASS">
+=======
 <<<<<<< HEAD
         <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.hr.admin.Adminmod2@2794eab6]" started-at="2022-08-11T10:51:44 IST" name="closeDBconfig" finished-at="2022-08-11T10:51:44 IST" duration-ms="0" status="PASS">
 =======
         <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:LoginToApplication.loginToApplicationTest@1e0b4072]" started-at="2022-08-10T15:21:14 IST" name="closeDBconfig" finished-at="2022-08-10T15:21:14 IST" duration-ms="1" status="PASS">
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBconfig -->
+<<<<<<< HEAD
+      </class> <!-- com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest -->
+=======
 <<<<<<< HEAD
       </class> <!-- com.hr.admin.Adminmod2 -->
 =======
@@ -534,6 +582,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 
       </class> <!-- Emplyoee.EmployeeUpdateProfile -->
 
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

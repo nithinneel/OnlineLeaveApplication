@@ -3,6 +3,9 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
+      <class name="com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest">
+=======
 
       <class name="LoginToApplication.loginToApplicationTest">
 
@@ -12,22 +15,33 @@
 
       <class name="LoginToApplication.LoginToApplicationAsAdmin">
 
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
         <methods>
+<<<<<<< HEAD
+=======
 
           <include name="adminApplyForLeaveAndCheck"/>
 
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <include name="logoutFromAppln"/>
+<<<<<<< HEAD
+=======
 
           <include name="login"/>
 
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <include name="closeDBconfig"/>
           <include name="login"/>
           <include name="loginToAppln"/>
+          <include name="addEmployeeDetails"/>
           <include name="closeTheBrowser"/>
           <include name="launchTheBrowser"/>
           <include name="adminUpdateProfile"/>
           <include name="dbConfig"/>
         </methods>
+<<<<<<< HEAD
+      </class> <!-- com.OnlineLeaveApplication.AddEmployee.AddEmployeeTest -->
+=======
 
       </class> <!-- LoginToApplication.loginToApplicationTest -->
 
@@ -37,6 +51,7 @@
 
       </class> <!-- LoginToApplication.LoginToApplicationAsAdmin -->
 
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

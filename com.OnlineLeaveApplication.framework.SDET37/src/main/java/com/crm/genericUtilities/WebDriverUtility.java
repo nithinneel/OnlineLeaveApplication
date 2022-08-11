@@ -310,6 +310,19 @@ public class WebDriverUtility {
 		select.selectByVisibleText(visible_text);
 	}
 	/**
+	 * to get all the dropdown options
+	 * @param element
+	 */
+	public void selectPrintAllDropdownOptions(WebElement element) {
+		Select select=new Select(element);
+		List<WebElement> dropdownOptions = select.getOptions();
+		for (WebElement webEle : dropdownOptions) {
+			String dropDownOption = webEle.getText();
+			System.out.println(dropDownOption);
+		}
+		
+	}
+	/**
 	 * it is used to mouse over an element
 	 * @param driver
 	 * @param element
