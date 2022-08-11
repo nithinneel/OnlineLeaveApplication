@@ -50,6 +50,7 @@ public class Admin extends BaseClass{
 		else {
 			System.out.println("FAIL - Leave application IS NOT displayed in leave application page");
 			
+			
 		}
 	}
 }
