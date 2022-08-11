@@ -4,14 +4,21 @@
   <test thread-count="5" name="Default test(failed)">
     <classes>
 <<<<<<< HEAD
+      <class name="LoginToApplication.AdminUpdateProfile">
+=======
+<<<<<<< HEAD
       <class name="com.hr.admin.Admin">
 =======
       <class name="LoginToApplication.LoginToApplicationAsAdmin">
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
         <methods>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
           <include name="adminApplyForLeaveAndCheck"/>
 =======
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
           <include name="logoutFromAppln"/>
 <<<<<<< HEAD
@@ -22,12 +29,17 @@
           <include name="loginToAppln"/>
           <include name="closeTheBrowser"/>
           <include name="launchTheBrowser"/>
+          <include name="adminUpdateProfile"/>
           <include name="dbConfig"/>
         </methods>
+<<<<<<< HEAD
+      </class> <!-- LoginToApplication.AdminUpdateProfile -->
+=======
 <<<<<<< HEAD
       </class> <!-- com.hr.admin.Admin -->
 =======
       </class> <!-- LoginToApplication.LoginToApplicationAsAdmin -->
+>>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
 >>>>>>> branch 'master' of https://github.com/nithinneel/OnlineLeaveApplication.git
     </classes>
   </test> <!-- Default test(failed) -->
